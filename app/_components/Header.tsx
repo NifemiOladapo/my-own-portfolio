@@ -3,7 +3,7 @@ import Navbar from "./Navbar";
 
 const Header = () => {
   return (
-    <div className="bg-blue-950 w-full min-h-screen">
+    <div className="bg-[#091b29] w-full min-h-screen">
       <Navbar />
       <HeroContent />
 
