@@ -1,8 +1,8 @@
+import HomePage from "./_components/HomePage";
+
 const page = () => {
   return (
-    <div>
-      <h1>My Portfolio</h1>
-    </div>
+  <HomePage />
   )
 }
 
