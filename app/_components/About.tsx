@@ -1,5 +1,4 @@
 import Image from "next/image";
-import AboutMeCard from "./AboutMeCard";
 import AboutMeCardLists from "./AboutMeCardLists";
 
 // #0ea2e8
