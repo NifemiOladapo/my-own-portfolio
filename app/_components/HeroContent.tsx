@@ -7,7 +7,7 @@ const HeroContent = () => {
         <div className="flex justify-between lg:flex-row gap-8 lg:gap-0 flex-col-reverse  items-center w-full">
           <div className="w-full lg:w-[60%]">
             <h1 className="lg:text-6xl text-3xl text-white">
-              Hi, I'm Oladapo Nifemi
+              Hi I&apos;m Oladapo Nifemi
             </h1>
             <h3 className="lg:text-2xl text-xl  text-emerald-500">Software Developer</h3>
             <p className="my-5 text-white">
