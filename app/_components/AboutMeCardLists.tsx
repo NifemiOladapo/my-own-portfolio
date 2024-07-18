@@ -1,4 +1,4 @@
-import ABOUT__ME__LIST from "@/data/AboutMe.ts";
+import ABOUT__ME__LIST from "@/data/aboutMe.ts";
 import AboutMeCard from "./AboutMeCard";
 
 const AboutMeCardLists = () => {
