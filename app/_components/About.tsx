@@ -1,5 +1,5 @@
 import Image from "next/image";
-import AboutMeCardLists from "./AboutMeCardLists";
+import AboutMeCardLists from "./AboutMeCardLists.ts";
 
 // #0ea2e8
 
