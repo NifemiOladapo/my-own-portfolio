@@ -6,7 +6,6 @@ const Header = () => {
     <div className="bg-[#091b29] w-full min-h-screen">
       <Navbar />
       <HeroContent />
-
     </div>
   );
 };

@@ -1,5 +1,7 @@
 import About from "./About";
+import Contact from "./Contact";
 import Header from "./Header";
+import Projects from "./Projects";
 import TechStack from "./TechStack";
 
 const HomePage = () => {
@@ -8,6 +10,8 @@ const HomePage = () => {
       <Header />
       <About />
       <TechStack />
+      {/* <Projects /> */}
+      <Contact />
     </div>
   );
 };

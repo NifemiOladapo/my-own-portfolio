@@ -4,12 +4,15 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build || true",
+    "build": "next build || true",    
     "start": "next start",
     "lint": "next lint"
   },
   "dependencies": {
+    "@radix-ui/react-dialog": "^1.1.1",
+    "@radix-ui/react-slot": "^1.1.0",
     "d3": "^7.9.0",
+    "embla-carousel-react": "^8.1.8",
     "next": "14.0.4",
     "react": "^18",
     "react-dom": "^18",
