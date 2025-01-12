@@ -6,10 +6,7 @@ export const metadata: Metadata = {
   description:
     "Welcome to Nifemi Oladapo's Portfolio! Explore my work as a talented senior full-stack MERN and Next.js web developer, creating engaging, performance-driven web applications. Let's bring your ideas to life!",
   keywords:
-    "Full-stack developer, MERN stack, Next.js developer, React.js developer, web development, portfolio, software engineer, frontend developer, backend developer, JavaScript developer, modern web applications, responsive design, UI/UX design, freelance developer, coding projects, personal portfolio, web developer, Nifemi Oladapo, tech enthusiast, programming, web solutions, scalable applications",
- other: {
-    "google-site-verification": "idIMo8Af4EGCmLyDfn9uxSdadc27e3cCnb7AWQhCp3k",
-  }
+    "Full-stack developer, MERN stack, Next.js developer, React.js developer, web development, portfolio, software engineer, frontend developer, backend developer, JavaScript developer, modern web applications, responsive design, UI/UX design, freelance developer, coding projects, personal portfolio, web developer, Nifemi Oladapo, tech enthusiast, programming, web solutions, scalable applications"
 };
 
 
