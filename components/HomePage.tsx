@@ -6,13 +6,13 @@ import TechStack from "./TechStack";
 
 const HomePage = () => {
   return (
-    <div>
+    <main>
       <Header />
       <About />
       <TechStack />
-      {/* <Projects /> */}
-      <Contact />
-    </div>
+      <Projects />
+      {/* <Contact /> */}
+    </main>
   );
 };
 

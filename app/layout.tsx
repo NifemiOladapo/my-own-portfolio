@@ -1,16 +1,23 @@
-import './globals.css'
+import { Metadata } from "next";
+import "./globals.css";
 
+export const metadata: Metadata = {
+  title:
+    "Oladapo Nifemi | Professional Full-Stack Web Developer & Software Developer",
+  description:
+    "Discover the stunning capabilities and projects of Oladapo Nifemi, a professional and well-fitted full stack web developer and software developer with expertise in building scalable and efficient software solutions.",
+  keywords:
+    "Backend developer, frontend developer, software development, web development, Oladapo Nifemi, nextjs developer, nodejs developer, React developer, MERN stack development, full stack development",
+};
 
 export default function RootLayout({
-  children,
+  children, 
 }: {
-  children: React.ReactNode
+  children: React.ReactNode;
 }) {
   return (
     <html lang="en">
-      <body>
-        {children}
-      </body>
+      <body>{children}</body>
     </html>
-  )
+  );
 }

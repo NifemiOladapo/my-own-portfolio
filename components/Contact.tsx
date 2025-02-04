@@ -32,7 +32,7 @@ const Contact = () => {
   };
 
   return (
-    <section className="bg-[#132f44] text-white p-5 flex justify-center">
+    <section className="bg-[#091b29] text-white p-5 flex justify-center">
       <div className="max-w-3xl flex gap-4 w-full flex-col items-center">
         <h1 className="text-2xl">
           Message <span className="text-emerald-500">Me</span>

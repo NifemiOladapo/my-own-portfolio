@@ -4,8 +4,7 @@
 //   CarouselItem,
 // } from "@/components/ui/carousel";
 import PROJECTS__LIST from "@/data/projects";
-import Image from "next/image";
-import Link from "next/link";
+import CarouselList from "./CarouselList";
 
 const Projects = () => {
   return (
@@ -13,6 +12,8 @@ const Projects = () => {
       <h1 className="text-2xl text-white">
         My <span className="text-emerald-500">Projects</span>
       </h1>
+      {/* <CarouselList items={PROJECTS__LIST} /> */}  
+      {/* <Button>heloo</Button> */}
       {/* <Carousel>
         <CarouselContent>
           {PROJECTS__LIST.map((project, i) => {

@@ -6,7 +6,7 @@ import AboutMeCardLists from "./AboutMeCardLists";
 const About = () => {
   return (
     <div className="bg-[#132f44] p-5 lg:p-10 flex flex-col gap-8 text-white items-center">
-      <h1 className="text-2xl">About<span className="text-emerald-500">Me</span></h1>
+      <h1 className="text-2xl">About <span className="text-emerald-500">Me</span></h1>
       <Image
         src={"/Nifemi.jpeg"}
         alt="Nifemi's pic"

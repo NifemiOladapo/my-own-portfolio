@@ -9,7 +9,9 @@ const HeroContent = () => {
             <h1 className="lg:text-6xl text-3xl text-white">
               Hi I&apos;m Oladapo Nifemi
             </h1>
-            <h3 className="lg:text-2xl text-xl  text-emerald-500">Software Developer</h3>
+            <h3 className="lg:text-2xl text-xl  text-emerald-500">
+              Software Developer
+            </h3>
             <p className="my-5 text-white">
               A Software developer and engineer with experience in developing
               robust and result driven applications with expertise in web
@@ -19,9 +21,9 @@ const HeroContent = () => {
               <button className="border-emerald-500 border-2 py-2 px-6 rounded-md bg-emerald-500 text-blue-950">
                 Hire Me
               </button>
-              <button className="border-emerald-500 border-2 py-2 px-6 rounded-md">
+              {/* <button className="border-emerald-500 border-2 py-2 px-6 rounded-md">
                 Lets Talk
-              </button>
+              </button> */}
             </div>
           </div>
           <Image
@@ -33,10 +35,10 @@ const HeroContent = () => {
           />
         </div>
         <div className="flex items-center gap-4 text-white">
-        <p>G</p>
-        <p>L</p>
-        <p>X</p>
-      </div>
+          <p>G</p>
+          <p>L</p>
+          <p>X</p>
+        </div>
       </div>
     </div>
   );
