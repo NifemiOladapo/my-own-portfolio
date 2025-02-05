@@ -1,42 +1,59 @@
-// import {
-//   Carousel,
-//   CarouselContent,
-//   CarouselItem,
-// } from "@/components/ui/carousel";
+import {
+  Carousel,
+  CarouselContent,
+  CarouselItem,
+  CarouselNext,
+  CarouselPrevious,
+} from "@/components/ui/carousel";
+
 import PROJECTS__LIST from "@/data/projects";
-import CarouselList from "./CarouselList";
+import Image from "next/image";
+import Link from "next/link";
 
 const Projects = () => {
   return (
-    <div className="bg-[#132f44] flex gap-5 text-white flex-col items-center p-5">
-      <h1 className="text-2xl text-white">
+    <div className="bg-[#132f44] text-white flex flex-col items-center py-10 px-5">
+      <h1 className="text-3xl font-semibold mb-6">
         My <span className="text-emerald-500">Projects</span>
       </h1>
-      {/* <CarouselList items={PROJECTS__LIST} /> */}  
-      {/* <Button>heloo</Button> */}
-      {/* <Carousel>
-        <CarouselContent>
-          {PROJECTS__LIST.map((project, i) => {
-            return (
-              <CarouselItem
-                className="flex flex-col items-center"
-                key={i}
-              >
+      <Carousel className="w-full max-w-5xl">
+        <CarouselContent className="flex">
+          {PROJECTS__LIST.map((project, i) => (
+            <CarouselItem
+              key={i}
+              className="flex flex-col items-center text-center p-5 basis-1/1 md:basis-1/2 lg:basis-1/3"
+            >
+              <div className="bg-white/10 p-5 rounded-xl shadow-lg w-full h-full flex flex-col items-center gap-3">
                 <Image
-                  src={project.image}
-                  height={250}
-                  width={250}
+                  src={"/socket.png"}
+                  height={150}
+                  width={150}
                   alt={project.name}
+                  className="rounded-lg"
                 />
-                <h3 className="text-xl">{project.name}</h3>
-                <p>{project.description}</p>
-                <Link href={project.webLink}>{project.webLink}</Link>
-                <Link href={project.githubLink}>{project.githubLink}</Link>
-              </CarouselItem>
-            );
-          })}
+                <h3 className="text-xl font-semibold">{project.name}</h3>
+                <p className="text-sm text-gray-300">{project.description}</p>
+                <div className="flex gap-3 mt-3">
+                  <Link
+                    href={project.webLink}
+                    className="px-4 py-2 text-sm bg-emerald-500 hover:bg-emerald-600 transition rounded-lg"
+                  >
+                    Live Demo
+                  </Link>
+                  <Link
+                    href={project.githubLink}
+                    className="px-4 py-2 text-sm border border-white hover:bg-white hover:text-black transition rounded-lg"
+                  >
+                    GitHub
+                  </Link>
+                </div>
+              </div>
+            </CarouselItem>
+          ))}
         </CarouselContent>
-      </Carousel> */}
+        <CarouselPrevious className="absolute left-0" />
+        <CarouselNext className="absolute right-0" />
+      </Carousel>
     </div>
   );
 };
