@@ -1,7 +1,6 @@
 import { Metadata } from "next";
 import "../app/globals.css";
 import './globals.css'
-import { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: "Nifemi Oladapo | Professional Full stack Web Developer & Frontend Developer",
