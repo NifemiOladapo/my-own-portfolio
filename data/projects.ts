@@ -1,57 +1,41 @@
 const PROJECTS__LIST = [
+  // {
+  //   name: "Chat App",
+  //   description:
+  //     "A well fitted chat application built with React.js, Chakra Ui, MongoDb, Node.js, Express.js and Socket.io. with features such as group chat, personal chat, and so much more.",
+  //   webLink: "https://nix-chat-app.netlify.app",
+  //   githubLink: "https://nix-noom.netlify.app",
+  //   image: "/chat-app.PNG",
+  //   id: 0,
+  // },
   {
-    name: "Chat App",
+    name: "Video Conferencing App (Zoom Clone)",
     description:
-      "A well fitted chat application built with React.js, Chakra Ui, MongoDb, Node.js, Express.js and Socket.io. with features such as group chat, personal chat, and so much more.",
-    webLink: "https://nix-chat-app.netlify.app",
-    githubLink: "https://nix-noom.netlify.app",
-    image: "/chat-app.PNG",
+      "A modern video conferencing app built with Next.js 14, Clerk authentication, Tailwind CSS, ShadCN UI, and Stream API. It allows users to create and join video meetings, manage participants, and chat in real time, providing a seamless remote communication experience.",
+    webLink: "https://nifnix-noom.netlify.app",
+    githubLink: "https://github.com/NifemiOladapo/Noom",
+    image: "/noom.PNG",
     id: 1,
   },
   {
-    name: "Real Estate App",
+    name: "Real Estate Marketplace (MERN Stack)",
     description:
-      "A real estate app built with the MERN stack(MongoDb, Express.js, React.js, Node.js), redux for state management, inclusion of firebase auth alongside custom signup/login pattern.",
-    webLink: "https://nix-notion-clone.netlify.app",
+      " A feature-rich real estate platform built with the MERN stack and Vite. Users can list properties, browse available listings, and connect with property owners. The app provides an intuitive user experience with fast performance and modern UI/UX.",
+    webLink: "https://mern-estate-r68c.onrender.com/",
     githubLink: "https://github.com/NifemiOladapo/nix-estate",
-    image: "/flexbook.PNG",
+    image: "/nix-estate.PNG",
     id: 2,
   },
-  // {
-  //   name: "Open Innovation",
-  //   description: "A website of innovation built to foster innovation",
-  //   webLink: "https://nix-open-innovation.netlify.app",
-  //   githubLink: "https://nix-noom.netlify.app",
-  //   image: "/flexbook.PNG",
-  //   id: 3,
-  // },
+
   {
-    name: "Noom",
+    name: "Creative UI/UX Showcase",
     description:
-      "A tipical clone of the Zoom application. Bult with nextjs 14, Clerk Auth, and the stream api.",
-    webLink: "https://nifnix-noom.netlify.app",
-    githubLink: "https://github.com/NifemiOladapo/Noom",
-    image: "/flexbook.PNG",
-    id: 4,
-  },
-  {
-    name: "Nix-Foodie",
-    description:
-      "This was my first website built with just html, css and Javascript.😊😊😊😊",
+      "A portfolio site highlighting my design skills. This project demonstrates my ability to create visually appealing and user-friendly interfaces using modern design principles and frontend technologies.",
     webLink: "https://nix-foodie-app.netlify.app",
     githubLink: "https://github.com/NifemiOladapo/foodie-app",
-    image: "/flexbook.PNG",
-    id: 5,
+    image: "/foodie.PNG",
+    id: 3,
   },
-  // {
-  //   name: "Data-Lounge",
-  //   description:
-  //     "This is a site for buying data and airtime at cheap rates, built with nextjs.15, nextAuth and the megateq api.",
-  //   webLink: "https://nix-foodie-app.netlify.app",
-  //   githubLink: "https://nix-noom.netlify.app",
-  //   image: "/flexbook.PNG",
-  //   id: 6,
-  // },
 ] as const;
 
 export default PROJECTS__LIST;

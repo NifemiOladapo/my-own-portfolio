@@ -22,7 +22,7 @@ const Contact = () => {
       setLoading(true);
       await new Promise((res, rej) => setTimeout(res, 1000));
     } catch (e) {
-      console.log(e.message);
+      console.log((e as Error).message);
     } finally {
       setLoading(false);
       nameRef.current.value = "";
