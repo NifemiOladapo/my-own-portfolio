@@ -1,11 +1,7 @@
-import Header from "@/components/Header";
+import HomePage from "@/components/HomePage";
 
 const page = () => {
-  return (
-    <main>
-      <Header />
-    </main>
-  );
+  return <HomePage />;
 };
 
 export default page;
