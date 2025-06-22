@@ -1,8 +1,9 @@
 import Image from "next/image";
 import MyImage from "@/public/Nifemi.jpeg";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faGithub, faWhatsapp } from "@fortawesome/free-brands-svg-icons";
+import { faGithub, faWhatsapp, faXTwitter } from "@fortawesome/free-brands-svg-icons";
 import HireMe from "./HireMe";
+import { TwitterIcon, X } from "lucide-react";
 
 const HeroContent = () => {
   return (
@@ -78,6 +79,18 @@ const HeroContent = () => {
             <FontAwesomeIcon
               className="size-9 text-white cursor-pointer"
               icon={faWhatsapp}
+              size="lg"
+              color="#000"
+            />
+          </a>
+            <a
+            href="https://x.com/NifeTheDev?t=7x8NNrtRqhWgssxNer0FBQ&s=08"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <FontAwesomeIcon
+              className="size-9 text-white cursor-pointer"
+              icon={faXTwitter}
               size="lg"
               color="#000"
             />
