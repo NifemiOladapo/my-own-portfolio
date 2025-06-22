@@ -8,6 +8,15 @@ const PROJECTS__LIST = [
   //   image: "/chat-app.PNG",
   //   id: 0,
   // },
+    {
+    name: "PropoWiz",
+    description:
+      "A proposal generation tool designed for freelancers to streamline the process of creating professional proposals using AI. Built with React+Vite, Tailwind CSS .",
+    webLink: "https://propowiz.netlify.app",
+    githubLink: "https://github.com/NifemiOladapo/AI-freelancer-proposal-generator",
+    image: "/propowiz.PNG",
+    id: 0,
+  },
   {
     name: "Video Conferencing App (Zoom Clone)",
     description:
