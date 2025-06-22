@@ -8,7 +8,10 @@ export const metadata: Metadata = {
   description:
     "Discover the stunning capabilities and projects of Oladapo Nifemi, a professional and well-fitted full stack web developer and software developer with expertise in building scalable and efficient software solutions.",
   keywords:
-    "Full-stack developer, MERN stack, MERN developer,  web developer, Oladapo Nifemi, React Developer, Backend developer, frontend developer, software development, web development,  nextjs developer, nodejs developer, React developer, MERN stack development, full stack development",
+    "Nifemi Oladapo, Full-stack developer, MERN stack, MERN developer,  web developer, Oladapo Nifemi, React Developer, Backend developer, frontend developer, software development, web development,  nextjs developer, nodejs developer, React developer, MERN stack development, full stack development",
+  icons: {
+    icon: "/favicon.ico",
+  },
 };
 
 export default function RootLayout({

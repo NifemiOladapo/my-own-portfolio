@@ -16,7 +16,7 @@ const HeroContent = () => {
             <h3 className="lg:text-2xl text-xl  text-emerald-500">
               Software Developer
             </h3>
-            <p className="my-5 text-white">
+            <p className="my-5 max-w-xl text-white">
               A Software developer and engineer with experience in developing
               robust and result driven applications with expertise in web
               development and mobile applications development.
