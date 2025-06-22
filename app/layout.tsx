@@ -10,7 +10,7 @@ export const metadata: Metadata = {
   keywords:
     "Nifemi Oladapo, Full-stack developer, MERN stack, MERN developer,  web developer, Oladapo Nifemi, React Developer, Backend developer, frontend developer, software development, web development,  nextjs developer, nodejs developer, React developer, MERN stack development, full stack development",
   icons: {
-    icon: "/favicon.ico",
+    icon: "/favicon.png",
   },
   verification: {
     google: "idIMo8Af4EGCmLyDfn9uxSdadc27e3cCnb7AWQhCp3k",
