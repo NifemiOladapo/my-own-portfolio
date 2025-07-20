@@ -1,21 +1,23 @@
 const PROJECTS__LIST = [
-  // {
-  //   name: "Chat App",
-  //   description:
-  //     "A well fitted chat application built with React.js, Chakra Ui, MongoDb, Node.js, Express.js and Socket.io. with features such as group chat, personal chat, and so much more.",
-  //   webLink: "https://nix-chat-app.netlify.app",
-  //   githubLink: "https://nix-noom.netlify.app",
-  //   image: "/chat-app.PNG",
-  //   id: 0,
-  // },
-    {
+  {
+    name: "Nippr E-Commerce App",
+    description:
+      "A modern e-commerce web application built with Next.js 15, featuring seamless authentication with Clerk, content management via Sanity (with live editing), and secure Stripe integration for payments. Core features include user authentication, product search, category-based filtering, a full shopping basket experience, and smooth checkout flow.",
+    webLink: "https://nippr.vercel.app",
+    githubLink: "https://github.com/NifemiOladapo/Niprr",
+    image: "/nippr.png",
+    id: 0,
+  },
+
+  {
     name: "PropoWiz",
     description:
       "A proposal generation tool designed for freelancers to streamline the process of creating professional proposals using AI. Built with React+Vite, Tailwind CSS .",
     webLink: "https://propowiz.netlify.app",
-    githubLink: "https://github.com/NifemiOladapo/AI-freelancer-proposal-generator",
+    githubLink:
+      "https://github.com/NifemiOladapo/AI-freelancer-proposal-generator",
     image: "/propowiz.PNG",
-    id: 0,
+    id: 1,
   },
   {
     name: "Video Conferencing App (Zoom Clone)",
@@ -24,7 +26,7 @@ const PROJECTS__LIST = [
     webLink: "https://nifnix-noom.netlify.app",
     githubLink: "https://github.com/NifemiOladapo/Noom",
     image: "/noom.PNG",
-    id: 1,
+    id: 2,
   },
   {
     name: "Real Estate Marketplace (MERN Stack)",
@@ -33,7 +35,7 @@ const PROJECTS__LIST = [
     webLink: "https://mern-estate-r68c.onrender.com/",
     githubLink: "https://github.com/NifemiOladapo/nix-estate",
     image: "/nix-estate.PNG",
-    id: 2,
+    id: 3,
   },
 
   {
@@ -43,7 +45,7 @@ const PROJECTS__LIST = [
     webLink: "https://nix-foodie-app.netlify.app",
     githubLink: "https://github.com/NifemiOladapo/foodie-app",
     image: "/foodie.PNG",
-    id: 3,
+    id: 4,
   },
 ] as const;
 
