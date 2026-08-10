@@ -4,6 +4,7 @@ const PROJECTS__LIST = [
     description : "Architected an end-to-end job board platform featuring dual-role authentication (Employer vs. Candidate) and dynamic dashboards for job postings and application tracking. Integrated an AI candidate-scoring engine that evaluates pre-uploaded candidate resumes against job specifications in real time, featuring manual score overrides for employers. Engineered document processing workflows for candidate resumes and implemented role-based access control (RBAC) to ensure secure data handling.",
      webLink: "https://www.thisisnaijaboard.com.ng",
     githubLink: "https://github.com/NifemiOladapo/NaijaBoard",
+    image : "/Screenshot from 2026-08-10 10-08-09.png",
       id: 0,
   },
   {
