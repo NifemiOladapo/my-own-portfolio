@@ -50,18 +50,23 @@ const Projects = () => {
                     </p>
 
                     <div className="flex gap-3 mt-auto">
-                      <Link
-                        href={project.webLink}
-                        className="flex-1 px-3 py-2 text-sm bg-emerald-500 hover:bg-emerald-600 transition rounded-lg text-center"
-                      >
-                        Live Demo
-                      </Link>
-                      <Link
-                        href={project.githubLink}
-                        className="flex-1 px-3 py-2 text-sm border border-white hover:bg-white hover:text-black transition rounded-lg text-center"
-                      >
-                        GitHub
-                      </Link>
+                    <Link
+  href={project.webLink}
+  target="_blank"
+  rel="noopener noreferrer"
+  className="flex-1 px-3 py-2 text-sm bg-emerald-500 hover:bg-emerald-600 transition rounded-lg text-center"
+>
+  Live Demo
+</Link>
+
+<Link
+  href={project.githubLink}
+  target="_blank"
+  rel="noopener noreferrer"
+  className="flex-1 px-3 py-2 text-sm border border-white hover:bg-white hover:text-black transition rounded-lg text-center"
+>
+  GitHub
+</Link>
                     </div>
                   </div>
                 </CarouselItem>
