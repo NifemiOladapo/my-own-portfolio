@@ -25,6 +25,15 @@ const PROJECTS__LIST = [
     image: "/noom.PNG",
       id: 2,
   },
+   {
+    name: "Creative UI/UX Showcase",
+    description:
+      "A portfolio site highlighting my design skills. This project demonstrates my ability to create visually appealing and user-friendly interfaces using modern design principles and frontend technologies.",
+    webLink: "https://nix-foodie-app.netlify.app",
+    githubLink: "https://github.com/NifemiOladapo/foodie-app",
+    image: "/foodie.PNG",
+    id: 3
+  },
   {
     name: "PropoWiz",
     description:
@@ -33,17 +42,7 @@ const PROJECTS__LIST = [
     githubLink:
       "https://github.com/NifemiOladapo/AI-freelancer-proposal-generator",
     image: "/propowiz.PNG",
- id: 3,
-  },
- 
-  {
-    name: "Creative UI/UX Showcase",
-    description:
-      "A portfolio site highlighting my design skills. This project demonstrates my ability to create visually appealing and user-friendly interfaces using modern design principles and frontend technologies.",
-    webLink: "https://nix-foodie-app.netlify.app",
-    githubLink: "https://github.com/NifemiOladapo/foodie-app",
-    image: "/foodie.PNG",
-    id: 4
+ id: 4,
   },
 ] as const;
 
