@@ -32,3 +32,5 @@ const ABOUT__ME__LIST: aboutMelist = [
       "I’m a problem solver who values clean architecture, maintainable code, and practical solutions. I enjoy working across the stack, collaborating with others, and continuously improving the way I build software.",
   },
 ];
+
+export default ABOUT__ME__LIST;
