@@ -20,7 +20,7 @@ const PROJECTS__LIST = [
   {
     name: "Natour - Travel and Tourism App",
     description:
-      "A travel and tourism web application built with Next.js 14, featuring user authentication via Clerk, content management through Sanity (with live editing), and a responsive design for optimal user experience. The app allows users to explore travel destinations, view detailed information, and manage their travel plans seamlessly.",
+      "A responsive landing page for an adventure tourism brand, designed to showcase exciting travel experiences through immersive visuals, interactive tour cards, and a clean, modern layout. The website features an engaging hero section, an overview of the brand's benefits, popular tour packages, customer testimonials, and a booking section. Built with HTML and CSS, the project focuses on responsive web design, CSS animations and transitions, reusable layout patterns, and creating an engaging user experience across screen sizes.",
     webLink: "https://thenatour.netlify.app",
     githubLink: "https://github.com/NifemiOladapo/Natour",
     image: "/natour.png",
